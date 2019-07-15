@@ -1,4 +1,4 @@
-package main
+package main // import "github.com/markcheno/go-vue-starter"
 
 import (
 	"github.com/markcheno/go-vue-starter/api"
@@ -13,5 +13,5 @@ func main() {
 	routes := routes.NewRoutes(api)
 	n := negroni.Classic()
 	n.UseHandler(routes)
-	n.Run(":3000")
+	n.Run(":8081")
 }

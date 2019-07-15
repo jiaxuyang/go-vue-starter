@@ -19,8 +19,7 @@ export default {
   },
   methods: {
     getUserInfo () {
-      this.$http.get('/api/user/info', {headers: auth.getAuthHeader()})
-      .then(response => {
+      this.$http.get('/api/user/info', {headers: auth.getAuthHeader()}).then(response => {
         this.userinfo = response.body
       }, response => {
         if (response.status === 401) {

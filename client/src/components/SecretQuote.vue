@@ -19,8 +19,7 @@ export default {
   },
   methods: {
     getQuote () {
-      this.$http.get('/api/quote/protected/random', {headers: auth.getAuthHeader()})
-      .then(response => {
+      this.$http.get('/api/quote/protected/random', {headers: auth.getAuthHeader()}).then(response => {
         this.quote = response.body
       }, response => {
         if (response.status === 401) {
