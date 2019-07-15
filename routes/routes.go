@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/markcheno/go-vue-starter/api"
-	"github.com/markcheno/go-vue-starter/auth"
+	"github.com/jiaxuyang/go-vue-starter/api"
+	"github.com/jiaxuyang/go-vue-starter/auth"
 	"github.com/urfave/negroni"
 )
 

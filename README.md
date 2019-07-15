@@ -32,8 +32,8 @@ Copyright 2017 Mark Chenoweth
 
 ``` bash
 # clone repository
-go get github.com/markcheno/go-vue-starter
-cd $GOPATH/src/github.com/markcheno/go-vue-starter
+go get github.com/jiaxuyang/go-vue-starter
+cd $GOPATH/src/github.com/jiaxuyang/go-vue-starter
 
 # install Go dependencies (and make sure ports 3000/8080 are open)
 go get -u ./... 

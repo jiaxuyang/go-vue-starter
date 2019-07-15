@@ -1,9 +1,9 @@
-package main // import "github.com/markcheno/go-vue-starter"
+package main // import "github.com/jiaxuyang/go-vue-starter"
 
 import (
-	"github.com/markcheno/go-vue-starter/api"
-	"github.com/markcheno/go-vue-starter/models"
-	"github.com/markcheno/go-vue-starter/routes"
+	"github.com/jiaxuyang/go-vue-starter/api"
+	"github.com/jiaxuyang/go-vue-starter/models"
+	"github.com/jiaxuyang/go-vue-starter/routes"
 	"github.com/urfave/negroni"
 )
 

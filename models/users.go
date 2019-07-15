@@ -60,7 +60,7 @@ func (state *UserManager) FindUserByUUID(uuid string) *User {
 // AddUser - Creates a user and hashes the password
 func (state *UserManager) AddUser(username, password string) *User {
 	passwordHash := state.HashPassword(username, password)
-	guid, _ := uuid.NewV4()
+	guid := uuid.NewV4()
 	user := &User{
 		Username: username,
 		Password: passwordHash,
